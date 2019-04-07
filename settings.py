@@ -1,0 +1,5 @@
+WIDTH = 640
+HEIGHT = 640
+BG = (0,0,0)
+
+FONT_NAME = "arial"
