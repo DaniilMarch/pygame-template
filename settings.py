@@ -1,5 +1,13 @@
-WIDTH = 640
-HEIGHT = 640
-BG = (0,0,0)
+import pygame as pg
+
+WIDTH = 720
+HEIGHT = 480
+BG = (51,204,255)
 
 FONT_NAME = "arial"
+SPEED = 5
+JUMP = 10
+GRAVITY = 0.5
+
+SPAWN_ENEMY = pg.USEREVENT+1
+SHOT_FIRED = pg.USEREVENT+2
